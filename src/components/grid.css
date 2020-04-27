@@ -1,0 +1,32 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+}
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-item {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.grid-item-pristine {
+  background-color: lightblue;
+}
+.grid-item-visited {
+  background-color: rgba(200, 0, 200, 0.6);
+}
+.grid-item-wall {
+  background-color: gray;
+}
+.grid-item-start {
+  background-color: green;
+}
+.grid-item-goal {
+  background-color: yellow;
+}
+
